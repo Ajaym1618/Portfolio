@@ -1,0 +1,31 @@
+.skill{
+    /* background-image: url(../../assets/rm222batch2-mind-03.jpg); */
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(109,213,250,1) 0%, rgba(255,255,255,1) 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    /* background-attachment:fixed; */
+}
+
+@media only screen and (max-width:1025px){
+    .skill-part{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 695px){
+    .skill h1{
+        font-size: 25px;
+        margin: 0;
+        text-align: center;
+    }
+    .skill-part{
+        grid-template-columns: 1fr;
+        font-size: 14px;
+    }
+    .skill-part div{
+        height: auto;
+    }
+}

@@ -1,0 +1,50 @@
+.intern{
+    /* background-image: url(../../assets/rm222batch2-mind-03.jpg); */
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(109,213,250,1) 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: -1px 10px 28px 3px rgba(109,213,250,0.84);
+    /* background-attachment: fixed; */
+}
+
+@media only screen and (max-width: 1025px){
+    
+    .intern h1{
+        font-size: 25px;
+    }
+    .internImg{
+        display: none;
+    }
+    .inContent{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 555px){
+    .inContent h2{
+        font-size: 20px;
+    }
+    .inContent ul{
+        padding-left: 2px;
+    }
+    .inContent ul li{
+        font-size: 16px;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 401px){
+    .inContent h2{
+        padding: 0;
+        padding-bottom: 5px;
+        font-size: 16px;
+    }
+    .inContent ul li{
+        font-size: 14px;
+    }
+}
+
+

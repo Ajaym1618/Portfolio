@@ -1,0 +1,38 @@
+.education{
+    /* background-image: url('../../assets/Background-Images/Education.avif'); */
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(109,213,250,1) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: -1px 10px 28px 3px rgba(109,213,250,0.84);
+    /* background-attachment: fixed; */
+}
+
+
+@media only screen and (max-width: 1300px){
+    .education{
+        height: auto;
+    }
+    .edu{
+        height: auto;
+    }
+    .edu div img{
+        height: auto;
+    }
+    .fa-location-dot{
+        font-size: 16px;
+    }
+    .edu div{
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .education h1{
+        font-size: 25px;
+    }
+    .edu div:hover{
+        
+    }
+}

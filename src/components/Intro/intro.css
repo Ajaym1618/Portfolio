@@ -1,0 +1,87 @@
+@media only screen and (max-width: 980px){
+    .rightContent{
+        width: 40%;
+    }
+    .innerSquare{
+        width: 300px;
+        height: 300px;
+        position: relative;
+        top: -35px;
+        right: 20px;
+    }
+    .innerSquare img{
+        width: 240px;
+    }
+    .outerSquare{
+        width: 300px;
+        height: 300px;
+    }
+    .leftContent{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .leftContent h3{
+        font-size: 25px;
+    }
+    .leftContent h1{
+        font-size: 70px;
+    }
+    .leftContent h2{
+        font-size: 25px;
+    }
+    .leftContent span{
+        font-size: 16px;
+    }
+    .leftContent{
+        width: 100%;
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 630px){
+    .intro{
+        display: block;
+        height: auto;
+    }
+    .leftContent{
+        justify-content: start;
+        height: 50vh;
+        width: 100%;
+    }
+    .rightContent{
+        width: 100%;
+        height: 60vh;
+    }
+    .rightContent .outerSquare{
+        width: 250px;
+        height: 250px;
+    }
+    .innerSquare{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 340px){
+    .main{
+        display: flex;
+        justify-content: start;
+    }
+    .leftContent{
+        height: 40vh;
+    }
+    .leftContent h3{
+        font-size: 15px;
+    }
+    .leftContent h1{
+        font-size: 50px;
+    }
+    .leftContent h2{
+        font-size: 20px;
+    }
+    .leftContent span{
+        font-size: 14px;
+    }
+}

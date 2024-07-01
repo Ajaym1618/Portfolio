@@ -1,0 +1,160 @@
+.project{
+    /* background-image: url('../../assets/blue-background-edu.avif'); */
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(109,213,250,1) 0%, rgba(255,255,255,1) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+
+
+
+
+@media only screen and (max-width: 1025px){
+    .caraImg img{
+        width: 500px;
+        height: 300px;
+    }
+    .project .pro{
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    .proHead h1{
+        font-size: 18px;
+    }
+    .fa-chevron-circle-right,.fa-chevron-circle-left{
+        font-size: 30px;
+    }
+    .About-pro{
+        width: 100%;
+        height: 60vh;
+        margin-top: 5px;
+    }
+    .proAbout{
+        height: 60vh;
+    }
+    .paraAbout{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1235px){
+    .caraImg img{
+        width: 700px;
+        height: 350px;
+    }
+    .paraAbout{
+        font-size: 16px;
+    }
+    .project h1{
+        /* margin-left: 20px; */
+        font-size: 40px;
+    }
+    .proHead h1{
+        font-size: 22px;
+    }
+    .fa-chevron-circle-right, .fa-chevron-circle-left{
+        font-size: 30px;
+    }
+    .fa-xmark{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 780px){
+    .paraAbout{
+        font-size: 14px;
+    }
+    .fa-xmark{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .caraImg img{
+        width: 500px;
+        height: 300px;
+    }
+    .project h1{
+        /* margin-left: 20px; */
+        font-size: 30px;
+    }
+    .proHead h1{
+        font-size: 18px;
+    }
+    .fa-chevron-circle-right, .fa-chevron-circle-left{
+        font-size: 30px;
+    }
+    .About-pro{
+        width: 100%;
+        height: 65vh;
+        margin-top: 15px;
+    }
+    .proAbout{
+        height: 60vh;
+    }
+    .paraAbout{
+        font-size: 10px;
+    }
+    .proHead{
+        padding: 0px 10px;
+    }
+    .fa-xmark{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 376px){
+    .paraAbout{
+        font-size: 8px;
+    }
+    .fa-xmark{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 326px){
+    .pro-2{
+        height: 70vh;
+    }
+    .project{
+        height: 80vh;
+    }
+    .carousel{
+        height: 40vh;
+    }
+    .caraImg{
+        height: 40vh;
+    }
+    .caraImg img{
+        width: 400px;
+        height: 200px;
+    }
+    .proHead h1{
+        font-size: 18px;
+    }
+    .proHead{
+        height: 60vh;
+    }
+    .fa-chevron-circle-right, .fa-chevron-circle-left{
+        font-size: 20px;
+    }
+    .About-pro{
+        width: 100%;
+        height: 50vh;
+        margin-top: 5px;
+    }
+    .proAbout{
+        height: 40vh;
+    }
+    .paraAbout{
+        font-size: 6px;
+    }
+    .fa-xmark{
+        font-size: 15px;
+    }
+}
+
+
